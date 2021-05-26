@@ -37,11 +37,6 @@ body {
 	text-indent: 50px;
 	}
 
-ul, li:focus {
-	outline: 3px dashed;
-	background-color: blue;
-}
-
 ul {
 	list-style-type:none;
 	margin:0px;
