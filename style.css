@@ -37,26 +37,6 @@ body {
 	text-indent: 50px;
 	}
 
-ul {
-	list-style-type:none;
-	margin:0px;
-	padding:1px;
-	overflow:hidden;
-	background-color: black;
-	}
-
-li {
-	float:right;
-	}
-li a {
-	display:block;
-	color:white;
-	text-align:center;
-	font-family: Verdana, sans-serif;
-	padding:14px 16px;
-	text-decoration:none;
-	}
-
 p {
 	font-size: 18px;
 	text-align: left;
@@ -137,37 +117,36 @@ div.desc {
 	  display: block;
 }
 
-li:hover,
-li:focus-within {
-  background: darkgray;
-  cursor: pointer;
-}
+ul {
+	list-style-type:none;
+	margin:0px;
+	padding:1px;
+	overflow:hidden;
+	background-color: black;
+	}
 
-li:focus-within a {
-  outline: none;
-}
+li {
+	float:right;
+	}
+li a {
+	display:block;
+	color:white;
+	text-align:center;
+	font-family: Verdana, sans-serif;
+	padding:14px 16px;
+	text-decoration:none;
+	}
 
-ul li ul {
-  background: orange;
-  visibility: hidden;
-  position: absolute;
-  margin-top:16px;
-  left: 0;
-  display: none;
-}
+a:hover:not(.active) {
+	background-color:#ff77ff;
+	color:black;
+	}
 
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
-  visibility: visible;
-  display: block
-}
+.active {
+	background-color:pink;
+	color:black;
+	}
 
-ul li ul li {
-  clear: both;
-  width: 100%;
-}
 
 li:focus-within a {
 	outline: none;
