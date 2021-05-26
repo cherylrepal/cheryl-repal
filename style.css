@@ -39,7 +39,7 @@ body {
 
 ul, li:focus {
 	outline: 3px dashed;
-	background-color: pink;
+	background-color: blue;
 }
 
 ul {
