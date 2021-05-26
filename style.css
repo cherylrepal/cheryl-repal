@@ -1,5 +1,6 @@
-*:focus {
+:focus {
 	outline: 3px dashed;
+	background-color: pink;
 }
 
 .header {
