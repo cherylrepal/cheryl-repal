@@ -1,5 +1,5 @@
 .header {
-	background-image:url("capture.jpg");
+	background-image: url("capture.jpg");
 	width: 100%;
 	padding: 1px;
 	text-align: center;
@@ -132,38 +132,38 @@ div.desc {
 }
 
 .sm {
-  display:inline-block;
+	  display:inline-block;
 }
 
 .sr-only {
-  font-size: 0;
-  height: 0;
-  width:0;
-  overflow: hidden;
-  display: block;
+	  font-size: 0;
+	  height: 0;
+	  width:0;
+	  overflow: hidden;
+	  display: block;
 }
 
 li:focus-within a {
-  outline: none;
+	  outline: none;
 }
 
 ul li ul {
-  background: black;
-  visibility: hidden;
-  position: absolute;
-  right: 120;
-  display: none;
+	  background: black;
+	  visibility: hidden;
+	  position: absolute;
+	  right: 120;
+	  display: none;
 }
 
 ul li:hover > ul,
 ul li:focus-within > ul,
 ul li ul:hover,
 ul li ul:focus {
-  visibility: visible;
-  display: block
+	  visibility: visible;
+	  display: block
 }
 
 ul li ul li {
-  clear: both;
-  width: 100%;
+	  clear: both;
+	  width: 100%;
 }
