@@ -1,5 +1,5 @@
 .header {
-	background-image: url("capture.jpg");
+	background-image:url("capture.jpg");
 	width: 100%;
 	padding: 1px;
 	text-align: center;
@@ -20,7 +20,7 @@ h2 {
 
 body {
 	background-color: #AEEEEE;
-	font-family: "Lato", sans-serif;
+	font-family: Lato, sans-serif;
 }
 
 .content {
