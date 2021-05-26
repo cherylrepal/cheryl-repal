@@ -1,4 +1,4 @@
-ul, li:focus-within {
+content:focus-within {
 	outline: 3px dashed;
 	background-color: pink;
 }
