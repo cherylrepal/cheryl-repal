@@ -1,6 +1,6 @@
 content:focus-within {
 	outline: 3px dashed;
-	background-color: pink;
+	background-color: yellow;
 }
 
 .header {
