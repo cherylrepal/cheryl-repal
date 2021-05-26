@@ -57,16 +57,6 @@ li a {
 	text-decoration:none;
 	}
 
-a:hover:not(.active) {
-	background-color:#ff77ff;
-	color:black;
-	}
-
-.active {
-	background-color:pink;
-	color:black;
-	}
-
 p {
 	font-size: 18px;
 	text-align: left;
@@ -145,6 +135,38 @@ div.desc {
 	  width:0;
 	  overflow: hidden;
 	  display: block;
+}
+
+li:hover,
+li:focus-within {
+  background: darkgray;
+  cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  position: absolute;
+  margin-top:16px;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  display: block
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
 }
 
 li:focus-within a {
